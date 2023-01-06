@@ -15,8 +15,8 @@ import com.google.android.material.shape.MaterialShapeDrawable;
 
 import java.util.ArrayList;
 
-public class AdapterMasjid extends RecyclerView.Adapter<AdapterMasjid.VHPetshop> {
-    private ArrayList<ModelMasjid> dataPetshop;
+public class AdapterMasjid extends RecyclerView.Adapter<AdapterMasjid.VHMasjid> {
+    private ArrayList<ModelMasjid> dataMasjid  ;
     private Context ctx;
 
     public AdapterMasjid(ArrayList<ModelMasjid> dataMasjid, Context ctx){
@@ -27,13 +27,13 @@ public class AdapterMasjid extends RecyclerView.Adapter<AdapterMasjid.VHPetshop>
 
     @NonNull
     @Override
-    public VHPetshop onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public VHMasjid onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View VW = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_card, parent, false);
-        return new VHPetshop(VW);
+        return new VHMasjid(VW);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull VHPetshop holder, int position) {
+    public void onBindViewHolder(@NonNull VHMasjid holder, int position) {
         ModelMasjid Masjid = dataMasjid.get(position);
 
         holder.tvNama.setText(Masjid.getNama());
@@ -59,7 +59,7 @@ public class AdapterMasjid extends RecyclerView.Adapter<AdapterMasjid.VHPetshop>
                 xAlamat = Masjid.getAlamat();
                 xKoordinat = Masjid.getKoordinat();
 
-                Intent kirim = new Intent(ctx, DetailActivty.class);
+                Intent kirim = new Intent(ctx, DetailActivity.class);
                 kirim.putExtra("xNama", xNama);
                 kirim.putExtra("xFoto", xFoto);
                 kirim.putExtra("xTentang", xTentang);
@@ -71,15 +71,13 @@ public class AdapterMasjid extends RecyclerView.Adapter<AdapterMasjid.VHPetshop>
     }
 
     @Override
-    public int getItemCount() {
-        return dataPetshop.size();
-    }
+    public int getItemCount() {return dataMasjid.size();}
 
-    public class VHPetshop extends RecyclerView.ViewHolder {
+    public class VHMasjid extends RecyclerView.ViewHolder {
         TextView tvNama, tvTentang, tvAlamat, tvKoordinat;
         ImageView ivFoto;
 
-        public VHPetshop(@NonNull View itemView) {
+        public VHMasjid(@NonNull View itemView) {
             super(itemView);
             tvNama = itemView.findViewById(R.id.tv_nama);
             tvTentang = itemView.findViewById(R.id.tv_tentang);

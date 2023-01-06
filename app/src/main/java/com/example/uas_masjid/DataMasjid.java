@@ -2,6 +2,8 @@ package com.example.uas_masjid;
 
 import android.view.Display;
 
+import java.util.ArrayList;
+
 public class DataMasjid{
     public static String[][] data = new String[][]{
             {"Masjid Agung Palembang","jl. Jend. Sudirman, 19 Ilir, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan 30111\n"+
@@ -9,10 +11,10 @@ public class DataMasjid{
             {"Masjid Cheng Ho","15 Ulu, Kecamatan Seberang Ulu I, Kota Palembang, Sumatera Selatan 30267"}
     };
 
-    public class ArrayList<ModelMasjid> ambilDataMasjid(){
+    public static ArrayList<ModelMasjid> ambilDataMasjid(){
         ArrayList<ModelMasjid> dataMasjid = new ArrayList<>();
 
-        for (String[] varData: data ){
+        for(String[] varData: data){
             ModelMasjid mdl = new ModelMasjid();
             mdl.setNama(varData[0]);
             mdl.setTentang(varData[1]);
