@@ -18,8 +18,14 @@ public class DataMasjid{
                     "Masjid Kiai Muara Ogan atau Masjid Ki Marogan adalah salah satu masjid tertua di Palembang, Sumatra Selatan. Masjid ini didirikan oleh Mgs. H. Abdul Hamid (Ki Marogan) seorang ulama Palembang yang sangat terkenal dan usahawan yang sukses pada tahun 1310 H atau 1890. Masjid Ki Marogan ini, merupakan masjid kedua yang dibangun di Palembang setelah Masjid Agung Palembang. Di masa Kesultanan Palembang masjid ini punya peran yang strategis dalam berbagai kegiatan keagamaan dan sosial masyarakat Palembang."},
             {"Masjid Al-Aqobah","PT Pusri, Jl. Melur, Sei Selayur, Kec. Kalidoni, Kota Palembang, Sumatera Selatan 30118\n"+
                     "Masjid Al-Aqobah yang dibangun pada tahun 1994. Masjid Al-Aqobah merupakan kategori Masjid Umum. Masjid Al-Aqobah beralamat di Jl. Pupuk Raya Komp Perumahan Pusri Sako Palembang Sumatera Selatan . Masjid Al-Aqobah memiliki luas tanah 200 m2 , luas bangunan 300 m2 dengan status tanah Wakaf."},
-            
-
+            {"Masjid Al-Falah","Masjid Al Falah beralamat di Jl. Raja Wali RT. 26 Kel.9 Ilir Palembang Sumatera Selatan\n"+
+                    "Masjid Al Falah yang dibangun pada 1969. Masjid Al Falah merupakan kategori Masjid Besar. Masjid Al Falah memiliki luas tanah 625 m2, luas bangunan 2.700 m2 dengan status tanah Wakaf. Masid Al Falah memiliki jumlah 50-100 orang, jumlah mazin 4 orang."},
+            {"Masjid Raya Taqwa","Jl. Ki Ranggo Eirosentiko RT.42 RW.14 Kelurahan 30 Ilir Kecamatan Ilir Barat II Palembang\n"+
+                    "Masjid raya Taqwa Palembang merupakan salah satu masjid yang berdiri di tengah kota Palembang. Dekat dengan taman Kambang Iwak dan perumahan warga menjadikan masjid ini sebagai salah satu pusat kajian Islam kota Palembang. Masjid yang mampu menampung 1500 jamaah dan pernah terisi sampai 800-900 jamaah ini, memiliki pengurus berjumlah 75 orang, 7 orang imam beserta Khotib yang berjumlah 30 orang.  “Masjid ini didirikan pada masa H. Asnawi Mangku Alam sebagai gubernur Sumatera Selatan, tepatnya itu tahun 1973 ” ujar sekretaris pengurus masjid Taqwa Palembang Hamidin Nawawi."},
+            {"Masjid Baitul Atiq","Jl. Merdeka, Telaga Semut, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan 30136\n"+
+                    "Masjid Baitul Atiq merupakan masjid yang berada di Kota Palembang. Masjid ini menjadi tempat sholat dan beribadah ummat muslim disekitarnya yang rutin mendirikan sholat subuh berjamaah, dhuhur/zuhur, ashar, magrib dan isya. Masjid Baitul Atiq juga menjadi tujuan warga sekitar untuk menunaikan ibadah sunnah dan wajid dibulan Ramadhan seperti buka puasa bersama, sholat tarawih dan lainnya. Masjid di Kota Palembang ini juga dapat menyalurkan sumbangan, sedekah, kurban dan zakat warga Kota Palembang."},
+            {"Masjid Jami’ Istiqlal","Jl. Selingkeh Raya, Sako, Sialang, Kec. Sako, Kota Palembang, Sumatera Selatan 30961\n"+
+                    "Masjid Jami’ Istiqlal yang dibangun pada tahun 1994. Masjid Jami’ Istiqlal merupakan kategori Masjid Umum. Masjid Jami’ Isqtiqlal memiliki luas tanah 300 m2, luas bangunan 400 m2 dengan status tanah Wakaf. Masjid Jami’ Istiqlal memiliki jumlah jamaah 150 – 200 orang, jumlah muazin 3 orang, jumlah remaja 30 orang dan jumlah Khotib 3 orang."},
     };
 
     public static ArrayList<ModelMasjid> ambilDataMasjid(){
