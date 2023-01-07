@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.menu_about){
             Intent About = new Intent(MainActivity.this, About.class);
+            startActivity(About);
             return true;
         }
         return super.onOptionsItemSelected(item);
