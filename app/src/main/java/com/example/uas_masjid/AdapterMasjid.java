@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.shape.MaterialShapeDrawable;
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
@@ -86,6 +86,4 @@ public class AdapterMasjid extends RecyclerView.Adapter<AdapterMasjid.VHMasjid> 
             tvKoordinat = itemView.findViewById(R.id.tv_koordinat);
         }
     }
-}
-{
 }
