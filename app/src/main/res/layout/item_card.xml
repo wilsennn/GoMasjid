@@ -9,11 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-<<<<<<< HEAD
         android:background="#DA3BDF">
-=======
-        android:background="#BF2BD8">
->>>>>>> 54314804192c6c551408e437d49a785b6624be40
 
         <ImageView
             android:id="@+id/iv_foto"
