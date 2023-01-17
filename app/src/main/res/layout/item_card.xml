@@ -8,22 +8,23 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="6dp">
+        android:padding="6dp"
+        android:background="#BF2BD8">
 
         <ImageView
             android:id="@+id/iv_foto"
-            android:layout_width="75dp"
+            android:layout_width="380dp"
             android:layout_height="100dp"
             android:src="@mipmap/ic_launcher"
             android:scaleType="centerCrop"
-            android:layout_marginRight="6dp"/>
+            android:layout_alignParentTop="true"/>
 
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama Masjid"
-            android:textSize="17sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:layout_toRightOf="@id/iv_foto"/>
 
@@ -32,18 +33,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tentang Masjid"
-            android:layout_toRightOf="@id/iv_foto"
-            android:layout_below="@id/tv_nama"
-            android:maxLines="4"
-            android:ellipsize="end"
-            android:justificationMode="inter_word"/>
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tv_nama"/>
 
         <TextView
             android:id="@+id/tv_alamat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alamat Masjid"
-            android:textSize="17sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:layout_below="@id/tv_tentang"/>
 
@@ -52,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Koordinat Masjid"
-            android:textSize="17sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:layout_below="@id/tv_alamat"/>
 
