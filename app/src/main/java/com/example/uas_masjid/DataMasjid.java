@@ -1,13 +1,11 @@
 package com.example.uas_masjid;
 
-import android.view.Display;
-
 import java.util.ArrayList;
 
 public class DataMasjid{
     public static String[][] data = new String[][]{
             {"Masjid Agung Palembang","Jl. Jend Sudirman, 19 Ilir, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan 30111\n"+
-                    "Masjid Agung Palembang (Indonesia Masjid Agung Palembang), juga dikenal sebagai Masjid Agung Sultan Mahmud Badaruddin I setelah mantan Sultan Palembang, adalah masjid utama Palembang, ibukota Sumatera Selatan. Masjid ini merupakan masjid terbesar di Sumatera Selatan, dan masjid terbesar ketiga di Sumatera setelah Masjid Raya Sumatera Barat dan Masjid Agung Pekanbaru.","-2.987895437710507, 104.76020555513554"},
+                    "Masjid Agung Palembang (Indonesia Masjid Agung Palembang), juga dikenal sebagai Masjid Agung Sultan Mahmud Badaruddin I setelah mantan Sultan Palembang, adalah masjid utama Palembang, ibukota Sumatera Selatan. Masjid ini merupakan masjid terbesar di Sumatera Selatan, dan masjid terbesar ketiga di Sumatera setelah Masjid Raya Sumatera Barat dan Masjid Agung Pekanbaru.", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Palembang_Grand_Mosque.jpg/800px-Palembang_Grand_Mosque.jpg", "-2.987895437710507, 104.76020555513554"},
             {"Masjid Cheng Ho","15 Ulu, Kecamatan Seberang Ulu I, Kota Palembang, Sumatera Selatan 30267\n"+
                     "Masjid Zheng He, secara resmi Masjid Islam Mohammed Zheng He di Sriwijayan Palembang (bahasa Indonesia: Masjid Al-Islamiyyah Muhammad Cheng Ho Sriwijaya Palembang), adalah sebuah masjid yang didedikasikan untuk umat Tionghoa Muslim yang terletak di Jakabaring Palembang, Sumatera Selatan, Indonesia. Nama masjid ini untuk menghormati Laksamana Cina Muslim yang terkenal, Zheng He. Masjid ini didirikan atas prakarsa para sesepuh, penasehat, pengurus Persatuan Islam Tionghoa Indonesia (PITI) Sumatera Selatan, serta tokoh masyarakat Tionghoa di sekitar Palembang. Sebelumnya masjid ini dipimpin oleh imam ternama, Ustadz Choirul Rizal yang telah hafal 30 juz' Alquran. Ustadz Miftah yang saat ini menjabat sebagai imam, juga seorang hafiz.","-3.024343658869345, 104.78003921134093"},
             {"Masjid Lawang Kidul","Lorong Masjid, Lawang Kidul, Ilir Timur II, Palembang City, Sumatera Selatan 30118\n"+
